@@ -13,7 +13,8 @@ const Home = () => {
 		<div className="">
 			<Navbar/>
 			<Jumbotron/>
-			<Card />    
+			<Card />
+			<Footer />    
 		</div>
 	);
 };

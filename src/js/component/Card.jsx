@@ -37,7 +37,7 @@ const Card = () =>{
         <div className="container cardContainer">
             <div className="row">
             {infoCard.map((card, index) =>
-                <div key={index} className="card col-3">
+                <div key={index} className="card d-flex cardInfo col-sm- col-md-2">
                     <img src={rigoImage} className="card-img-center w-50" alt="..."/>
                     <div className="card-body">
                         <h4 className="card-title text-center">{card.title}</h4>

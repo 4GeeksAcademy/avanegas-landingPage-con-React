@@ -31,7 +31,7 @@
 }
 
 .cardButton{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     margin: 0px 30px 0px 30px;
@@ -39,4 +39,16 @@
 
 .cardContainer{
     margin-bottom: 50px;
+    margin-right:45px;
+}
+
+.card-footer{
+    padding: 30px 0px 30px 0px;
+    font-size: 20px;
+}
+
+.cardInfo{
+    margin-right:20px;
+    width: 23%;
+    align-items: center;
 }
