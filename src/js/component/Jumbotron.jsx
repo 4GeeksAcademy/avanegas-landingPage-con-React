@@ -4,16 +4,15 @@ const Jumbotron = () =>{
     
     const infoJumbo = {
         title: "A warm Welcome!",
-        text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit",
+        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum tempore quibusdam reprehenderit necessitatibus perspiciatis veniam alias cum non sunt nulla. Placeat illo soluta magni labore accusamus necessitatibus tenetur ipsum eaque.",
         button: "Call to action"
     }
-
     return (
-        <div className="container">
-            <div className="jumbotron bg-dark-subtled">
-                <h1 className="display-4">{infoJumbo.title}</h1>
-                <p className="lead">{infoJumbo.text}</p>
-                <p className="lead">
+        <div className="jumbotron jumbotron-fluid">
+            <div className="container jumboContainer">
+                <h1 className="jumboTitle display-4">{infoJumbo.title}</h1>
+                <p className="jumboText lead">{infoJumbo.text}</p>
+                <p className="jumboButton lead">
                     <a className="btn btn-primary btn-lg" href="#" role="button">{infoJumbo.button}</a>
                 </p>
             </div>      

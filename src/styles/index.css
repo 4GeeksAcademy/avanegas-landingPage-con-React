@@ -10,3 +10,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.jumboContainer{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: gainsboro;
+}
+
+.jumboTitle{
+    padding: 30px 30px 10px 30px;
+    font-size: 80px;
+}
+
+.jumboText {
+    padding: 10px 15px 0px 20px;
+}
+
+.jumboButton{
+    padding: 10px 15px 60px 20px;
+}
