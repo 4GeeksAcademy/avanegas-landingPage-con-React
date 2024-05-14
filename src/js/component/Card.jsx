@@ -34,15 +34,16 @@ const Card = () =>{
     ]
 
     return(
-        <div className="container">
+        <div className="container cardContainer">
             <div className="row">
             {infoCard.map((card, index) =>
                 <div key={index} className="card col-3">
-                    <img src={rigoImage} className="card-img-top w-50" alt="..."/>
+                    <img src={rigoImage} className="card-img-center w-50" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">{card.title}</h5>
+                        <h4 className="card-title text-center">{card.title}</h4>
                         <p className="card-text">{card.text}</p>
-                        <a href={card.labelUrl} className="btn btn-primary">{card.button}</a>
+                        <hr/>
+                        <a href={card.labelUrl} className="btn btn-primary cardButton justify-content align-items">{card.button}</a>
                     </div>
                 </div>
             )}

@@ -29,3 +29,14 @@
 .jumboButton{
     padding: 10px 15px 60px 20px;
 }
+
+.cardButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 0px 30px;
+}
+
+.cardContainer{
+    margin-bottom: 50px;
+}
