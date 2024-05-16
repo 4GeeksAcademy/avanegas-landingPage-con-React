@@ -8,7 +8,7 @@ const Jumbotron = () =>{
         button: "Call to action"
     }
     return (
-        <div className="jumbotron jumbotron-fluid">
+        <div className="jumbotron col-md-12">
             <div className="container jumboContainer">
                 <h1 className="jumboTitle display-4">{infoJumbo.title}</h1>
                 <p className="jumboText lead">{infoJumbo.text}</p>
