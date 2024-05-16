@@ -60,6 +60,7 @@ const Home = () => {
 	return (
 		<div className="">
 			<Navbar title={navbar.title} home={navbar.home} about={navbar.about} services={navbar.services}/>
+            
             <div className="jumbotron col-md-12">
                 <div className="container jumboContainer">
 			        <Jumbotron title={infoJumbo.title} text={infoJumbo.text} btn={infoJumbo.button} labelUrl={infoJumbo.labelUrl}/>
@@ -74,6 +75,7 @@ const Home = () => {
 					)}
 				</div>
 			</div>
+            
             <div class="card footerCard text-center col-md-12">
 			    <Footer text={footer.text} />    
             </div>
